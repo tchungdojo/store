@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+	<title>FullMean mini store</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
+	<script src='./script.js'></script>
+	<script src='./static/controllers/customersController.js'></script>
+	<script src='./static/factories/customersFactory.js'></script>
+	<script src='./static/controllers/ordersController.js'></script>
+	<script src='./static/factories/ordersFactory.js'></script>
+</head>
+<body>
+	<a href="#/orders">Orders</a> | <a href="#/customers">Customers</a>
+	<div ng-view=''>
+	</div>
+</body>
+</html>
